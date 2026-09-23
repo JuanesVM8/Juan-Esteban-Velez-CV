@@ -1,0 +1,5 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" role="img" aria-label="JEV favicon">
+  <rect width="64" height="64" rx="14" fill="#0B1014"/>
+  <path d="M16 48V16h9.5c7.6 0 12.7 4.7 12.7 11.9 0 7.1-5 12-12.7 12H22v8.1H16zm9.5-16.4h1.7c4.3 0 6.8-2.4 6.8-6.1 0-3.8-2.6-6.1-6.8-6.1H22v12.2h3.5z" fill="#8EE6BA"/>
+  <path d="M41 16h7.5v32H41z" fill="#F3F6F8" opacity="0.9"/>
+</svg>

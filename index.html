@@ -1,0 +1,361 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Portafolio de Juan Esteban Vélez Mazo, estudiante de Ingeniería de Sistemas con interés en desarrollo de software, datos y automatización."
+    />
+    <meta name="theme-color" content="#0B1014" />
+    <title>Juan Esteban Vélez Mazo | Desarrollo de software</title>
+    <link rel="icon" type="image/svg+xml" href="assets/icons/favicon.svg" />
+    <link rel="stylesheet" href="css/styles.css" />
+    <script src="js/main.js" defer></script>
+  </head>
+  <body>
+    <a class="skip-link" href="#contenido">Saltar al contenido</a>
+
+    <header class="site-header" id="top">
+      <div class="container nav-shell">
+        <a class="brand" href="#inicio" aria-label="Ir al inicio">JEV.</a>
+
+        <button
+          class="menu-toggle"
+          type="button"
+          aria-expanded="false"
+          aria-controls="mobile-nav"
+          aria-label="Abrir menú de navegación"
+        >
+          <span></span>
+          <span></span>
+          <span></span>
+        </button>
+
+        <nav class="site-nav" aria-label="Navegación principal">
+          <a href="#perfil" data-i18n="nav.profile">Perfil</a>
+          <a href="#experiencia" data-i18n="nav.experience">Experiencia</a>
+          <a href="#habilidades" data-i18n="nav.skills">Habilidades</a>
+          <a href="#proyectos" data-i18n="nav.projects">Proyectos</a>
+          <a href="#contacto" data-i18n="nav.contact">Contacto</a>
+        </nav>
+      </div>
+
+      <nav class="mobile-nav" id="mobile-nav" aria-label="Navegación móvil">
+        <div class="container mobile-nav-inner">
+          <a href="#perfil" data-i18n="nav.profile">Perfil</a>
+          <a href="#experiencia" data-i18n="nav.experience">Experiencia</a>
+          <a href="#habilidades" data-i18n="nav.skills">Habilidades</a>
+          <a href="#proyectos" data-i18n="nav.projects">Proyectos</a>
+          <a href="#contacto" data-i18n="nav.contact">Contacto</a>
+        </div>
+      </nav>
+    </header>
+
+    <main id="contenido">
+      <section class="hero section" id="inicio">
+        <div class="container hero-grid">
+          <div class="hero-copy reveal">
+            <p class="eyebrow" data-i18n="hero.location">Medellín, Colombia</p>
+            <h1>Juan Esteban Vélez Mazo</h1>
+            <h2 data-i18n="hero.title">Desarrollo de software, datos y automatización.</h2>
+            <p class="lead" data-i18n="hero.lead">
+              Combino desarrollo web, análisis de datos y automatización para resolver
+              problemas y mejorar procesos. Mi experiencia incluye soluciones con Python,
+              SQL y Power BI, además de tecnologías de desarrollo full stack.
+            </p>
+            <div class="hero-actions-row">
+              <div class="hero-actions">
+                <a class="button button-primary" href="#contacto" data-i18n="hero.primaryCta">Contactar</a>
+                <a class="button button-secondary" href="#experiencia" data-i18n="hero.secondaryCta">Ver experiencia</a>
+              </div>
+
+              <div class="lang-switch" aria-label="Selector de idioma">
+                <button type="button" class="lang-btn is-active" data-lang="es" aria-pressed="true">ES</button>
+                <button type="button" class="lang-btn" data-lang="en" aria-pressed="false">EN</button>
+              </div>
+            </div>
+          </div>
+
+          <div class="hero-visual reveal" aria-hidden="true">
+            <div class="visual-grid"></div>
+            <div class="module module-web">Web</div>
+            <div class="module module-data">Datos</div>
+            <div class="module module-automation">Automatización</div>
+            <div class="line line-one"></div>
+            <div class="line line-two"></div>
+            <div class="line line-three"></div>
+          </div>
+        </div>
+      </section>
+
+      <section class="section section-profile reveal" id="perfil">
+        <div class="container">
+          <div class="section-heading">
+            <p class="eyebrow" data-i18n="profile.eyebrow">Perfil</p>
+            <h2 data-i18n="profile.title">Tecnología para resolver problemas concretos.</h2>
+          </div>
+
+          <div class="profile-copy">
+            <p data-i18n="profile.text">
+              Soy estudiante de último semestre de Ingeniería de Sistemas en la
+              Universidad Católica Luis Amigó. Me interesa construir soluciones que
+              conecten desarrollo web, bases de datos y automatización. Me caracterizan
+              el compromiso, la capacidad de aprendizaje y el trabajo en equipo, con una
+              orientación práctica a la resolución de problemas y la mejora de procesos.
+            </p>
+          </div>
+
+          <div class="interest-list" aria-label="Áreas de interés">
+            <article class="interest-block">
+              <h3 data-i18n="interest.web.title">Desarrollo web</h3>
+              <p data-i18n="interest.web.text">Interfaces y soluciones full stack.</p>
+            </article>
+            <article class="interest-block">
+              <h3 data-i18n="interest.data.title">Datos y automatización</h3>
+              <p data-i18n="interest.data.text">Análisis, reportes y optimización de procesos.</p>
+            </article>
+            <article class="interest-block">
+              <h3 data-i18n="interest.security.title">Ciberseguridad</h3>
+              <p data-i18n="interest.security.text">Conocimientos e interés en seguridad y encriptación.</p>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section class="section reveal" id="experiencia">
+        <div class="container">
+          <div class="section-heading">
+            <p class="eyebrow" data-i18n="experience.eyebrow">Experiencia</p>
+            <h2 data-i18n="experience.title">Trayectoria profesional.</h2>
+          </div>
+
+          <div class="timeline" aria-label="Experiencia profesional">
+            <article class="timeline-item">
+              <div class="timeline-date">
+                <span>julio 2025</span>
+                <span>enero 2026</span>
+              </div>
+              <div class="timeline-content">
+                <div class="timeline-header">
+                  <div>
+                    <h3 data-i18n="experience.item1.company">Colombia Móvil S.A. E.S.P. — Tigo</h3>
+                    <p class="role" data-i18n="experience.item1.role">Prácticas de Ingeniería de Sistemas</p>
+                  </div>
+                  <p class="location" data-i18n="experience.item1.location">Medellín, Colombia</p>
+                </div>
+
+                <ul class="check-list">
+                  <li data-i18n="experience.item1.li1">Apoyo en el análisis y procesamiento de datos y la construcción de dashboards con Power BI para la toma de decisiones.</li>
+                  <li data-i18n="experience.item1.li2">Desarrollo de soluciones y automatización de procesos con Python.</li>
+                  <li data-i18n="experience.item1.li3">Consultas y gestión de bases de datos con SQL.</li>
+                  <li data-i18n="experience.item1.li4">Generación de reportes e indicadores con Excel avanzado y participación en la optimización de procesos mediante análisis de información.</li>
+                </ul>
+
+                <div class="tag-list" aria-label="Tecnologías utilizadas">
+                  <span>Python</span>
+                  <span>SQL</span>
+                  <span>Power BI</span>
+                  <span>Excel</span>
+                </div>
+              </div>
+            </article>
+
+            <article class="timeline-item">
+              <div class="timeline-date">
+                <span>junio 2022</span>
+                <span>enero 2025</span>
+              </div>
+              <div class="timeline-content">
+                <div class="timeline-header">
+                  <div>
+                    <h3 data-i18n="experience.item2.company">Emtelco S.A.S. — Tigo</h3>
+                    <p class="role" data-i18n="experience.item2.role">Creador de Experiencias Senior</p>
+                  </div>
+                  <p class="location" data-i18n="experience.item2.location">Medellín, Colombia</p>
+                </div>
+
+                <ul class="check-list">
+                  <li data-i18n="experience.item2.li1">Gestión y seguimiento de órdenes de trabajo en campo para instalación, soporte, corte y reconexión en diversas tecnologías.</li>
+                  <li data-i18n="experience.item2.li2">Administración y optimización de asignaciones mediante herramientas digitales y aplicaciones móviles.</li>
+                </ul>
+              </div>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section class="section reveal" id="habilidades">
+        <div class="container">
+          <div class="section-heading">
+            <p class="eyebrow" data-i18n="skills.eyebrow">Habilidades</p>
+            <h2 data-i18n="skills.title">Competencias técnicas y de trabajo.</h2>
+          </div>
+
+          <div class="skills-grid">
+            <article class="skill-group">
+              <h3 data-i18n="skills.frontend">Frontend</h3>
+              <ul>
+                <li>HTML</li>
+                <li>CSS</li>
+                <li>JavaScript</li>
+                <li>React</li>
+                <li>Vue.js</li>
+              </ul>
+            </article>
+
+            <article class="skill-group">
+              <h3 data-i18n="skills.backend">Backend</h3>
+              <ul>
+                <li>Node.js</li>
+              </ul>
+            </article>
+
+            <article class="skill-group">
+              <h3 data-i18n="skills.db">Bases de datos</h3>
+              <ul>
+                <li>MySQL</li>
+                <li>SQL Server</li>
+                <li>Oracle</li>
+                <li>MongoDB</li>
+              </ul>
+            </article>
+
+            <article class="skill-group">
+              <h3 data-i18n="skills.data">Datos y automatización</h3>
+              <ul>
+                <li>Python</li>
+                <li>NumPy</li>
+                <li>Matplotlib</li>
+                <li>SQL</li>
+                <li>Power BI</li>
+                <li>Excel avanzado</li>
+              </ul>
+            </article>
+
+            <article class="skill-group">
+              <h3 data-i18n="skills.security">Seguridad</h3>
+              <ul>
+                <li data-i18n="skills.security.item1">Conocimientos en ciberseguridad</li>
+                <li data-i18n="skills.security.item2">Encriptación</li>
+              </ul>
+            </article>
+
+            <article class="skill-group">
+              <h3 data-i18n="skills.collab">Colaboración</h3>
+              <ul>
+                <li data-i18n="skills.collab.item1">Resolución de problemas</li>
+                <li data-i18n="skills.collab.item2">Trabajo en equipo</li>
+                <li data-i18n="skills.collab.item3">Capacidad de aprendizaje</li>
+                <li data-i18n="skills.collab.item4">Optimización de procesos</li>
+              </ul>
+            </article>
+          </div>
+
+          <div class="languages">
+            <p><strong data-i18n="skills.languages.label">Idiomas:</strong> <span data-i18n="skills.languages.value">español nativo e inglés básico.</span></p>
+          </div>
+        </div>
+      </section>
+
+      <section class="section reveal" id="proyectos">
+        <div class="container">
+          <div class="section-heading">
+            <p class="eyebrow" data-i18n="projects.eyebrow">Proyectos</p>
+            <h2 data-i18n="projects.title">Explora mi trabajo en GitHub.</h2>
+          </div>
+
+          <div class="project-cta">
+            <p data-i18n="projects.text">
+              Visita mi perfil para conocer mis repositorios y explorar el código de mis proyectos.
+            </p>
+            <a
+              class="button button-primary"
+              href="https://github.com/JuanesVM8"
+              target="_blank"
+              rel="noopener noreferrer"
+              data-i18n="projects.cta"
+            >
+              Ir a GitHub
+            </a>
+          </div>
+        </div>
+      </section>
+
+      <section class="section reveal" id="formacion">
+        <div class="container">
+          <div class="section-heading">
+            <p class="eyebrow" data-i18n="education.eyebrow">Formación</p>
+            <h2 data-i18n="education.title">Formación académica y complementaria.</h2>
+          </div>
+
+          <div class="education-blocks">
+            <article class="education-item">
+              <h3 data-i18n="education.degree">Ingeniería de Sistemas</h3>
+              <p data-i18n="education.university">Universidad Católica Luis Amigó</p>
+              <p class="muted" data-i18n="education.degreeStatus">Estado reportado: estudiante de último semestre.</p>
+            </article>
+
+            <article class="education-item">
+              <h3 data-i18n="education.courseTitle">Cursos y certificaciones</h3>
+              <p data-i18n="education.courseName">Habilidades en programación y desarrollo web</p>
+              <p class="muted" data-i18n="education.courseMeta">MinTIC y Universidad Pontificia Bolivariana, 2022</p>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section class="section reveal" id="contacto">
+        <div class="container">
+          <div class="section-heading narrow-heading">
+            <p class="eyebrow" data-i18n="contact.eyebrow">Contacto</p>
+            <h2 data-i18n="contact.title">Conversemos sobre tu próximo proyecto o una oportunidad profesional.</h2>
+          </div>
+
+          <p class="contact-intro" data-i18n="contact.text">Puedes escribirme por correo o conectar conmigo en LinkedIn.</p>
+
+          <div class="contact-grid" aria-label="Canales de contacto">
+            <div class="contact-item">
+              <span class="label" data-i18n="contact.emailLabel">Email</span>
+              <a href="mailto:juanes1200@hotmail.com">juanes1200@hotmail.com</a>
+            </div>
+            <div class="contact-item">
+              <span class="label" data-i18n="contact.phoneLabel">Teléfono</span>
+              <a href="tel:+573205741905">+57 320 574 1905</a>
+            </div>
+            <div class="contact-item">
+              <span class="label" data-i18n="contact.linkedinLabel">LinkedIn</span>
+              <a href="https://www.linkedin.com/in/juan-esteban-velez-mazo-6b4593206/" target="_blank" rel="noopener noreferrer" data-i18n="contact.linkedinValue">Perfil profesional</a>
+            </div>
+            <div class="contact-item">
+              <span class="label" data-i18n="contact.githubLabel">GitHub</span>
+              <a href="https://github.com/JuanesVM8" target="_blank" rel="noopener noreferrer">github.com/JuanesVM8</a>
+            </div>
+            <div class="contact-item location-item">
+              <span class="label" data-i18n="contact.locationLabel">Ubicación</span>
+              <span data-i18n="contact.locationValue">Medellín, Antioquia, Colombia</span>
+            </div>
+          </div>
+
+          <div class="contact-actions">
+            <a class="button button-primary" href="mailto:juanes1200@hotmail.com" data-i18n="contact.submit">Enviar correo</a>
+            <button class="button button-secondary" type="button" data-copy-email data-i18n="contact.copy">
+              Copiar correo
+            </button>
+          </div>
+
+          <p class="copy-status" aria-live="polite" data-copy-status></p>
+          <p class="copy-email-display" data-email-value>juanes1200@hotmail.com</p>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="container footer-inner">
+        <p>Juan Esteban Vélez Mazo</p>
+        <p>© <span data-year></span></p>
+        <a href="#inicio" data-i18n="footer.back">Volver al inicio</a>
+      </div>
+    </footer>
+  </body>
+</html>
